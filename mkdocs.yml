@@ -1,0 +1,28 @@
+site_name: AI/ML Workshop
+theme: 
+    name: null
+    custom_dir: openshift/
+    navigation_depth: 1
+    include_homepage_in_sidebar: true
+    include_search_page: false
+
+extra_css:
+    - css/video.css
+
+nav:
+- Home: 'index.md'
+- Getting Started:
+    - 'Introduction to Open Data Hub': 'odh-intro.md'
+    - 'Getting familiar with the environment': 'getting-familiar.md'    
+- Running notebooks:
+    - 'Introduction to Jupyter': 'jupyter.md'
+    - 'Running your first Jupyter notebook': 'running-notebook.md'
+- Accessing data:
+    - 'Storage options': 'odh-storage.md'
+    - 'Accessing data from your notebook': 'accessing-data.md'
+- Pipelines:
+    - 'Introduction to Kubeflow': 'kubeflow.md'
+    - 'Running your first kubeflow pipeline': 'kubeflow-pipeline.md'
+- Using AI Library:
+    - 'AI Library Overview': 'ai-library.md'
+    - 'Using AI Library to perform sentiment analysis': 'sentiment-analysis.md'
