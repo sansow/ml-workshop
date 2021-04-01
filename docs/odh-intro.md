@@ -42,3 +42,5 @@ The ODH platform is installed on OpenShift as a native operator and is available
 
 **BeakerX** (http://beakerx.com/) is an extension to Jupyter Notebooks that includes tools for plotting, creating tables and forms and many more.
 
+
+Now that we understand a little more of ODH let's [get familiar](getting-familiar.md) with the environment so we can start working on our labs.
