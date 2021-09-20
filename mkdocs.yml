@@ -10,7 +10,8 @@ extra_css:
     - css/video.css
 
 nav:
-- Home: 'index.md'
+- Home:
+    - 'Introduction': 'index.md'
 - Getting Started:
     - 'Introduction to Open Data Hub': 'odh-intro.md'
     - 'Getting familiar with the environment': 'getting-familiar.md'    
