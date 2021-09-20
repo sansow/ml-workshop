@@ -15,3 +15,4 @@ USER 1001
 
 EXPOSE 8000
 
+ENTRYPOINT ["mkdocs", "serve", "-a", "8000" ]
