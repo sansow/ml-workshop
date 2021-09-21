@@ -8,7 +8,7 @@ COPY ./  /srv/
 
 Env HOSTNAME myhost
 
-RUN ping myhost
+RUN echo $hostname
 
 RUN chown -R 1001:0 /srv && \
     rm -f /srv/Containerfile
