@@ -14,4 +14,4 @@ WORKDIR /srv
 USER 1001
 
 EXPOSE 8080
-ENTRYPOINT ["mkdocs", "serve", "-a", "localhost:8080" ]
+ENTRYPOINT ["mkdocs", "serve", "-a", "0.0.0.0:8080" ]
