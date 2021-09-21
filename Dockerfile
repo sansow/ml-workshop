@@ -6,6 +6,10 @@ RUN dnf -y install python3-pip && \
 
 COPY ./  /srv/
 
+Env HOSTNAME myhost
+
+RUN ping myhost
+
 RUN chown -R 1001:0 /srv && \
     rm -f /srv/Containerfile
 
@@ -14,4 +18,4 @@ WORKDIR /srv
 USER 1001
 
 EXPOSE 8000
-ENTRYPOINT ["python3"]
+ENTRYPOINT ["mkdocs", "serve", "-a", "0:8000" ]
